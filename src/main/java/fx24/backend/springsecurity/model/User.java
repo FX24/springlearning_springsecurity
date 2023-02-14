@@ -1,5 +1,6 @@
-package fx24.backend.springsecurity.user;
+package fx24.backend.springsecurity.model;
 
+import fx24.backend.springsecurity.constant.Role;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

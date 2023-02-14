@@ -1,5 +1,6 @@
-package fx24.backend.springsecurity.user;
+package fx24.backend.springsecurity.repository;
 
+import fx24.backend.springsecurity.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

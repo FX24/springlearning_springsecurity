@@ -1,4 +1,4 @@
-package fx24.backend.springsecurity.demo;
+package fx24.backend.springsecurity.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
