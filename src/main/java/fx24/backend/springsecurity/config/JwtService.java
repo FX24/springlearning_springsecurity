@@ -19,7 +19,7 @@ import java.util.function.Function;
 @Service
 public class JwtService {
 
-    @Value("${secret_key}")
+    @Value("${secret.jwt.key}")
     private String SECRET_KEY; //HEX 256-BIT
 
     public String extractUsername(String token) {

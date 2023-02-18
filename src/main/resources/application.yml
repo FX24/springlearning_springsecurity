@@ -14,4 +14,6 @@ spring:
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 
-secret_key: ${SECRET_KEY}
+secret:
+  jwt:
+    key: ${SECRET_KEY}
